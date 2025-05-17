@@ -1,10 +1,7 @@
-function App() {
+import Router from './router';
 
-  return (
-    <>
-      <button className="btn btn-primary">Primary</button>
-    </>
-  )
+function App() {
+  return <Router />;
 }
 
 export default App
